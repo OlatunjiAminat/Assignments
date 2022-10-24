@@ -1,0 +1,100 @@
+html, body{
+    height: 60vh;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 5);
+    grid-template-areas:
+        "header"
+        "sidebar"
+        "main" 
+        "section1"
+        "section2";
+    background-color: black;
+
+}
+.fhead{
+    grid-area: header;
+    background-color: red;
+    
+}
+.bar{
+    grid-area: sidebar;
+    background-color: aqua;
+   
+}
+main{
+    grid-area: main;
+    background-color: blue;
+} 
+.sect1{
+    grid-area: section1;
+    background-color:chartreuse;
+   
+    
+}
+.sect2{
+    grid-area: section2;
+    background-color:darkmagenta;
+    
+} 
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    body{
+        box-sizing: border-box;
+        padding:0;
+        margin:80px auto;
+        display:grid;
+        grid-template-columns: 40%  20% 30%;
+        grid-template-rows: 60% 20% 30%;
+        grid-column-gap:10px;
+        grid-row-gap:10px;
+        grid-template-areas:
+            "header  header sidebar"
+            "main section1 section1"
+            "main  section2 section2";
+        width:768px;
+    
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width:1199px) {
+    body{
+        box-sizing: border-box;
+        padding:0;
+        margin:80px auto;
+        display:grid;
+        grid-template-columns: 40%  20% 30%;
+        grid-template-rows: 60% 20% 30%;
+        grid-column-gap:10px;
+        grid-row-gap:10px;
+        grid-template-areas:
+            "header  header sidebar"
+            "main section1 section1"
+            "main  section2 section2";
+        width:768px; 
+    
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width:2560px) {
+    body{
+        box-sizing: border-box;
+        padding:0;
+        margin:80px auto;
+        display:grid;
+        grid-template-columns: 50%  25% 35%;
+        grid-template-rows: 60% 20% 30%;
+        grid-column-gap:10px;
+        grid-row-gap:10px;
+        grid-template-areas:
+            "header  header sidebar"
+            "main section1 section1"
+            "main  section2 section2";
+        width:768px;
+    
+    }
+}
+
+

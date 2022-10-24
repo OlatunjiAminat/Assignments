@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lexend Deca;
+    font-size: 15px;
+}
+.overall-container{
+    margin: 0 auto;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1{
+    color: hsl(0, 0%, 95%);
+}
+.sedan-cont{
+    padding: 20px 25px 30px 20px;
+    background-color: hsl(31, 77%, 52%);
+    width: 190px; 
+    height: 320px;
+}
+.btn1{
+    margin-top: 40px;
+    border:3px solid white;
+    border-radius: 20px;
+    height:38px;
+    width:120px;
+    background-color:  hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);   
+}
+.suv-cont{
+    padding: 20px 25px 30px 20px;
+    background-color:hsl(184, 100%, 22%);
+    width: 190px;
+    height: 320px;
+}
+.btn2{
+    margin-top: 40px;
+    border:3px solid white;
+    border-radius: 20px;
+    height:38px;
+    width:120px;
+    background-color:hsl(184, 100%, 22%);  
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury-cont{
+    padding: 20px 25px 30px 20px;
+    background-color:hsl(179, 100%, 13%);
+    width: 190px;
+    height: 320px;
+}
+.btn3{
+    margin-top: 40px;
+    border:3px solid white;
+    border-radius: 20px;
+    height:38px;
+    width:120px;
+    background-color: hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75);
+}
+a{
+    text-decoration: none;
+    color:hsl(0, 0%, 95%);
+}
+.btn1:hover, a:active{
+    background-color:hsl(31, 37%, 65%);
+}
+.btn2:hover, a:active{
+    background-color:hsl(184, 12%, 52%);
+}
+.btn3:hover, a:active{
+    background-color:hsl(179, 37%, 62%);
+}
+@media only screen and (min-width:765px) and (max-width:1440px) {
+    .overall-container{
+        display: flex;
+        justify-content: center;
+        margin: 100px 200px;
+        align-items: center;
+    }
+}
+    
+
+
