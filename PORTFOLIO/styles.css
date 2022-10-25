@@ -1,0 +1,116 @@
+body{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+    font-family: serif, sans-serif;
+  }
+  li {
+    display:inline;
+    margin-top: 10px;
+    margin-left: 200px;
+    text-decoration-line: none;
+    text-align: center;
+  }
+ a:hover{ 
+    text-decoration-line: none;
+    background-color: red;
+  } 
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+  }
+ a{
+    text-decoration-line: none;
+    cursor:pointer;
+ }
+.my-img{
+    width:350px;
+    height: 200px;
+    border-radius: 60%;
+    margin-top: 50px;
+ }
+ h1{
+    color: aqua;
+    font-family:serif;
+    margin-top: 110px;
+    padding-left: 50px;
+ }
+ .sect{
+    display: flex;
+    justify-content: center;
+ }
+ .quality{
+    margin-top: 165px;
+    margin-left:-70px;
+ }
+ h2{
+    color:darkorange;
+    text-align: center;
+ }
+ .about{
+    text-align: center;
+    padding:0 5px;
+ }
+ .copy{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 3px;
+ }
+ 
+ @media only screen and (min-width:320px) and (max-width:480px) { 
+   li{
+         display:inline;
+         margin-top: 10px;
+         margin-left: 23px;
+         text-decoration-line: none;
+         text-align: center;
+      
+       }
+       .my-img{
+         width:200px;
+         height: 150px;
+         border-radius: 60%;
+         margin-top: 50px;
+         margin-left: 10px;
+      }
+      h1{
+         color: aqua;
+         font-family:serif;
+         margin-top: 90px;
+         padding-left: 20px;
+      }
+      
+
+      }
+      @media only screen and (min-width:481px) and (max-width:768px) {
+         li{
+            display:inline;
+            margin-top: 10px;
+            margin-left: 105px;
+            text-decoration-line: none;
+            text-align: center;
+          }
+          h1{
+            color: aqua;
+            font-family:serif;
+            margin-top: 90px;
+            padding-left: 20px;
+         }
+
+       }
+       @media only screen and (min-width:769px) and (max-width:1024px) {
+         li{
+            display:inline;
+            margin-top: 10px;
+            margin-left: 160px;
+            text-decoration-line: none;
+            text-align: center;
+          }
+       }
+
+       
+
+  
